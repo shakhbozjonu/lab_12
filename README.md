@@ -12,6 +12,7 @@ The application consists of two primary screens:
 
 ### Save Data to Firestore Screen
 - Provides a text field for users to input data.
+- Ony allowed messages:     **^((?i)hello|\\s|firebase|welcome|to|summit|the|this|everyone|good|morning|afternoon|firestore|meetup|devfest|virtual|online)+**
 - Saves the entered data to Firestore upon button press.
 
 ### Read Data from Firestore Screen
