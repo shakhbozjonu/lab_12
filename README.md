@@ -1,19 +1,26 @@
-# lab_12
+# Lab 12
 
-A new Flutter project created with FlutLab - https://flutlab.io
+This Flutter application demonstrates basic Firestore functionalities for handling data - saving and reading data to/from Firestore.
 
-## Getting Started
+## Overview
 
-A few resources to get you started if this is your first Flutter project:
+The application consists of two primary screens:
+1. **Save Data to Firestore**: Allows users to input text data and saves it to Firestore by pressing the "Save to Firestore" button.
+2. **Read Data from Firestore**: Retrieves and displays the stored text data from Firestore in a list view.
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+## Implementation Details
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Save Data to Firestore Screen
+- Provides a text field for users to input data.
+- Saves the entered data to Firestore upon button press.
 
-## Getting Started: FlutLab - Flutter Online IDE
+### Read Data from Firestore Screen
+- Retrieves data from Firestore and displays it in a scrollable list view.
+- Data is sorted based on the timestamp when it was added.
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+## Usage
+
+1. Run the app on an emulator or physical device.
+2. Use the "Save Data to Firestore" screen to input and save data.
+3. Use the "Read Data from Firestore" screen to view the stored data.
+
